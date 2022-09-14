@@ -1,0 +1,185 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    height: max-content;
+}
+
+
+
+.main {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    padding-block-start: 5%;
+    padding-block-end: 5%;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    background:#181c33 ;
+}
+
+.face {
+    display: block;
+    margin: auto;
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info {
+    display: block;
+    margin: auto;
+    padding-block: 15px;
+    width: 317px;
+    height: 380px;
+    Background: #1A1B21;
+}
+
+.name {
+    text-align: center;
+    color: #FFF;
+}
+
+.skill {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.site {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    padding-block: 10px;
+}
+
+#email {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: .2rem;
+    padding: 9px 13px 9px 22px;
+    margin-right: 1.2rem;
+
+    background: #FFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#linkedin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: .2rem;
+    padding: 9px 13px 9px 13px;
+
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+img.email-icon{
+    margin-right:.6rem;
+}
+
+img.linkedin-icon {
+    
+    margin-right:.358rem;
+}
+
+/* .section {
+    width: 247px;
+    height: 201px;
+    padding: 40px;
+} */
+
+.about-header {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 150%;
+    padding-left: 1.2rem;
+
+    /* or 24px */
+
+    color: #F5F5F5; 
+}
+
+.aboutme {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 150%;
+    padding-left: 1.2rem;
+    padding-right: .8rem;
+
+    /* or 15px */
+
+    color: #aaa9a9;
+}
+
+.intrsts-header{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 150%;
+    padding-left: 1.2rem;
+
+    /* or 24px */
+
+    color: #F5F5F5;
+}
+
+.hobbies{
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 150%;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+
+    /* or 15px */
+
+    color: #aaa9a9;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    
+    padding-block-start: 12px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+    color:white;
+}
+
+
+ul .twitter:hover {
+    background-color: cyan;
+}
+
+ul .facebook:hover {
+    background-color: blue;
+}
+ul .instagram:hover {
+    background-color: red;
+}
+
+ul .github:hover {
+    background-color:darkgreen;
+}
